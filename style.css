@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  border: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.hero button:hover {
+  transform: scale(1.15);
+  background-color: rgb(72, 0, 255);
+}
+.works button:hover {
+  transform: scale(9.15);
+  background-color: red;
+}
+.header a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+  color: rgb(89, 0, 255);
+}
+.comment-up a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+  color: rgb(0, 85, 255);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 27px 0 20px 0;
+}
+
+#hero {
+  padding: 50px 0 100px 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+
+.hero-text p {
+  padding: 40px 0 38px 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero-text button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: var(--Primary, #ff6464);
+  border: none;
+}
+
+#comment {
+  background: #edf7fa;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+}
+.comment-up-left {
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+}
+.comment-up-right {
+  color: var(--Secondry, #00a8cc);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-left {
+  background: #fff;
+}
+.comment-right {
+  background: #fff;
+}
+.comment h2 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px;
+}
+.comment span {
+  color: var(--Dark-Color, #21243d);
+  font-size: 18px;
+  font-weight: 400;
+}
+.comment p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.works-up {
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.works {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.works h1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: 900;
+}
+.works span {
+  padding-left: 26px;
+  color: var(--Light, #8695a4);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.works-1 {
+  display: flex;
+  align-items: center;
+}
+
+.works-2 {
+  padding: 22px 0;
+  display: flex;
+  align-items: center;
+}
+
+.works-3 {
+  padding: 22px 0;
+  display: flex;
+  align-items: center;
+}
+
+.works-4 {
+  padding: 22px 0;
+  display: flex;
+  align-items: center;
+}
+
+.works-text {
+  padding-left: 30px;
+}
+
+.works-text h2 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.works-text button {
+  border-radius: 16px;
+  background: #142850;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0 20px;
+}
+.works-text p {
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+#footer {
+  padding: 11px 0 14px 0;
+}
+
+.footer-icon {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.footer-text {
+  color: var(--Dark, #21243d);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.header-text {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 27px 0 90px 0;
+}
+.header span {
+  color: var(--Primary, #ff6464);
+}
+
+.blog-1 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.blog {
+  padding: 55px 0 60px;
+}
+
+.blog h2 {
+  padding: 30px 0 15px 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 30px;
+}

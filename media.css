@@ -1,0 +1,104 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  .comment-left p {
+    font-size: 14px;
+  }
+  .comment-right p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 992px) {
+  .hero-text h1 {
+    font-size: 33px;
+  }
+  .hero-text p {
+    width: 328px;
+    font-size: 16px;
+    padding: 23px 0 28px 0;
+  }
+  .hero-text button {
+    font-size: 13px;
+    width: 126px;
+    height: 36px;
+  }
+  .hero {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .comment {
+    flex-direction: column;
+  }
+  .comment-up-left {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .works-up {
+    text-align: center;
+  }
+  .works-1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .works-text p {
+    width: 344px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 451px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 376px) {
+}
+@media (max-width: 320px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-text p {
+    width: 307px;
+    font-size: 15px;
+  }
+  .comment h2 {
+    width: 327px;
+    font-size: 16px;
+  }
+  .comment-left {
+    font-size: 15px;
+    width: 316px;
+  }
+  .comment-right {
+    width: 314px;
+  }
+  .works-text h2 {
+    font-size: 24px;
+  }
+  .works-text p {
+    width: 234px;
+    font-size: 11px;
+  }
+  .footer {
+    width: 275px;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
